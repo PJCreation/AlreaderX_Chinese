@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:background="@null" android:layout_width="fill_parent" android:layout_height="@dimen/form_text_height2x">
+        <com.neverland.viscomp.dialogs.MyTextView android:textAppearance="@style/StyleContextMenuText" android:gravity="center|left" android:id="@id/label1" android:paddingLeft="@dimen/settingleftpadding" android:layout_width="0.0dip" android:layout_height="@dimen/form_text_height" app:layout_constraintBottom_toTopOf="@id/value1" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <com.neverland.viscomp.dialogs.MyEditText android:textAppearance="@style/StyleContextMenuText" android:gravity="center|left" android:id="@id/value1" android:background="@null" android:paddingLeft="@dimen/settingleftpadding" android:layout_width="0.0dip" android:layout_height="@dimen/form_text_height" android:layout_marginLeft="@dimen/settingleftpadding" android:hint="@string/message_edit_empty_string" android:selectAllOnFocus="true" android:maxLength="256" android:inputType="textNoSuggestions" android:imeOptions="actionDone" android:textCursorDrawable="@drawable/edit_text_cursor" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/label1" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

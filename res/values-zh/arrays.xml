@@ -1,0 +1,954 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="bookmark_typesstr">
+        <item>书签</item>
+        <item>引用</item>
+        <item>书签和引用</item>
+    </string-array>
+    <string-array name="eink_adaptation_str">
+        <item>否</item>
+        <item>黑白墨水屏</item>
+        <item>彩色墨水屏</item>
+    </string-array>
+    <integer-array name="marker_typesint">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </integer-array>
+    <string-array name="marker_typesstr">
+        <item>无标记</item>
+        <item>红底</item>
+        <item>黄底</item>
+        <item>绿底</item>
+        <item>下划线</item>
+        <item>红色下划线</item>
+        <item>黄色下划线</item>
+        <item>绿色下划线</item>
+    </string-array>
+    <integer-array name="marker_underlineint">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+    <string-array name="marker_underlinestr">
+        <item>直线</item>
+        <item>双线</item>
+        <item>波浪线</item>
+    </string-array>
+    <string-array name="opds_proxy_typesstr">
+        <item>DIRECT</item>
+        <item>HTTP</item>
+    </string-array>
+    <string-array name="opds_proxy_typesstr_23">
+        <item>DIRECT</item>
+        <item>HTTP</item>
+        <item>SOCKS</item>
+    </string-array>
+    <integer-array name="setting_fonts_spacewidthint">
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+    </integer-array>
+    <string-array name="setting_fonts_spacewidthstr">
+        <item>50%</item>
+        <item>60%</item>
+        <item>70%</item>
+        <item>80%</item>
+        <item>90%</item>
+        <item>100%(默认)</item>
+        <item>110%</item>
+        <item>120%</item>
+        <item>130%</item>
+    </string-array>
+    <integer-array name="setting_pages_firstletterint">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>5</item>
+        <item>6</item>
+    </integer-array>
+    <string-array name="setting_pages_firstletterstr">
+        <item>从不</item>
+        <item>每段</item>
+        <item>第一段</item>
+        <item>经典 每段</item>
+        <item>经典 第一段</item>
+    </string-array>
+    <string-array name="settings_backup_type_arr">
+        <item>设置</item>
+        <item>设置 + 数据库</item>
+        <item>设置 + 资源</item>
+        <item>全部</item>
+    </string-array>
+    <integer-array name="settings_books_dialogint">
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+    </integer-array>
+    <string-array name="settings_books_dialogstr">
+        <item>不</item>
+        <item>删除空格</item>
+        <item>删除空格，替换为破折号</item>
+    </string-array>
+    <integer-array name="settings_clock_colorint">
+        <item>0</item>
+        <item>6</item>
+        <item>7</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </integer-array>
+    <string-array name="settings_clock_colorstr">
+        <item>自动</item>
+        <item>@string/setting_colors_colortitle</item>
+        <item>@string/setting_colors_colorflet</item>
+        <item>@string/setting_colors_colorcustom1</item>
+        <item>@string/setting_colors_colorcustom2</item>
+        <item>@string/setting_colors_colorcustom3</item>
+        <item>@string/setting_colors_colorcustom4</item>
+    </string-array>
+    <integer-array name="settings_color_usestatusback_int">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+    <string-array name="settings_color_usestatusback_str">
+        <item>不</item>
+        <item>当前皮肤</item>
+        <item>一直</item>
+    </string-array>
+    <integer-array name="settings_common_animation_alwaysint">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+    <string-array name="settings_common_animation_alwaysstr">
+        <item>否</item>
+        <item>仅滑动</item>
+        <item>始终</item>
+    </string-array>
+    <integer-array name="settings_common_animation_typeint">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </integer-array>
+    <string-array name="settings_common_animation_typestr">
+        <item>仿真翻页1</item>
+        <item>仿真翻页2</item>
+        <item>左滑覆盖</item>
+        <item>右滑覆盖</item>
+        <item>潮起潮落</item>
+        <item>左右滑动</item>
+    </string-array>
+    <integer-array name="settings_common_autoscroll_typeeinkint">
+        <item>0</item>
+        <item>3</item>
+    </integer-array>
+    <string-array name="settings_common_autoscroll_typeeinkstr">
+        <item>波浪</item>
+        <item>翻页动画</item>
+    </string-array>
+    <integer-array name="settings_common_autoscroll_typeint">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </integer-array>
+    <string-array name="settings_common_autoscroll_typestr">
+        <item>波浪</item>
+        <item>卷动</item>
+        <item>翻页动画</item>
+        <item>翻页</item>
+    </string-array>
+    <integer-array name="settings_common_backlighthardwaremin_int">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </integer-array>
+    <string-array name="settings_common_backlighthardwaremin_str">
+        <item>1%</item>
+        <item>2%(默认)</item>
+        <item>3%</item>
+        <item>4%</item>
+        <item>5%</item>
+    </string-array>
+    <integer-array name="settings_common_backlightkeep_int">
+        <item>0</item>
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+        <item>30</item>
+        <item>777</item>
+    </integer-array>
+    <string-array name="settings_common_backlightkeep_str">
+        <item>系统默认</item>
+        <item>2 分钟</item>
+        <item>3 分钟</item>
+        <item>5 分钟</item>
+        <item>10 分钟</item>
+        <item>30 分钟</item>
+        <item>始终</item>
+    </string-array>
+    <integer-array name="settings_common_dictionaryint">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>14</item>
+        <item>16</item>
+        <item>15</item>
+        <item>17</item>
+        <item>13</item>
+        <item>20</item>
+        <item>21</item>
+    </integer-array>
+    <string-array name="settings_common_dictionarystr">
+        <item>GoldenDict/ColorDict3</item>
+        <item>Fora词典</item>
+        <item>Dictan</item>
+        <item>Lingvo</item>
+        <item>FreeDictionary</item>
+        <item>HedgeDict</item>
+        <item>Aard/Aard2字典</item>
+        <item>谷歌翻译</item>
+        <item>谷歌翻译(弹出)</item>
+        <item>Yandex翻译</item>
+        <item>Yandex翻译(弹出)</item>
+        <item>谷歌搜索</item>
+        <item>Onyx</item>
+        <item>Onyx (弹出)</item>
+    </string-array>
+    <integer-array name="settings_common_eink_refreshrateint">
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>50</item>
+        <item>10000</item>
+    </integer-array>
+    <string-array name="settings_common_eink_refreshratestr">
+        <item>5 页后</item>
+        <item>10 页后</item>
+        <item>20 页后</item>
+        <item>50 页后</item>
+        <item>没有</item>
+    </string-array>
+    <integer-array name="settings_common_fontscaleint">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </integer-array>
+    <string-array name="settings_common_fontscalestr">
+        <item>系统默认</item>
+        <item>最小</item>
+        <item>小</item>
+        <item>正常</item>
+        <item>大</item>
+        <item>更大</item>
+        <item>最大</item>
+    </string-array>
+    <integer-array name="settings_common_gammamodeint">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+    <string-array name="settings_common_gammamodestr">
+        <item>不</item>
+        <item>应用于整页</item>
+        <item>应用于图像</item>
+    </string-array>
+    <integer-array name="settings_common_gammavalueint">
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+    </integer-array>
+    <string-array name="settings_common_gammavaluestr">
+        <item>0.5</item>
+        <item>0.6</item>
+        <item>0.7</item>
+        <item>0.8</item>
+        <item>0.9</item>
+        <item>1.0(默认)</item>
+        <item>1.1</item>
+        <item>1.2</item>
+        <item>1.3</item>
+        <item>1.4</item>
+        <item>1.5</item>
+        <item>1.6</item>
+        <item>1.7</item>
+        <item>1.8</item>
+        <item>1.9</item>
+        <item>2.0</item>
+        <item>2.1</item>
+        <item>2.2</item>
+        <item>2.3</item>
+    </string-array>
+    <integer-array name="settings_common_hyphenationint">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+    </integer-array>
+    <string-array name="settings_common_hyphenationstr">
+        <item>None</item>
+        <item>English</item>
+        <item>Русский</item>
+        <item>Русский + English</item>
+        <item>Русский + Deutsch</item>
+        <item>Український</item>
+        <item>Αρχαία Ελληνικά</item>
+        <item>Български</item>
+        <item>Český</item>
+        <item>Dansk</item>
+        <item>Nederlands</item>
+        <item>Suomi</item>
+        <item>Français</item>
+        <item>Deutsch</item>
+        <item>Magyar</item>
+        <item>Icelandic</item>
+        <item>Gaeilge</item>
+        <item>Italiano</item>
+        <item>Νεοελληνική</item>
+        <item>Polski</item>
+        <item>Português</item>
+        <item>Român</item>
+        <item>Slovenski</item>
+        <item>Slovenčina</item>
+        <item>Español</item>
+        <item>Svenska</item>
+    </string-array>
+    <integer-array name="settings_common_langint">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </integer-array>
+    <string-array name="settings_common_langstr">
+        <item>@string/settings_common_systemlangstr</item>
+        <item>Русский</item>
+        <item>English</item>
+        <item>Türk</item>
+        <item>Беларускі</item>
+        <item>Deutsch</item>
+        <item>Español</item>
+        <item>Українська</item>
+        <item>简体中文</item>
+        <item>Italiano</item>
+    </string-array>
+    <string-array name="settings_common_langstrreal">
+        <item></item>
+        <item>ru</item>
+        <item>en</item>
+        <item>tr</item>
+        <item>be</item>
+        <item>de</item>
+        <item>es</item>
+        <item>uk</item>
+        <item>zh</item>
+        <item>it</item>
+    </string-array>
+    <integer-array name="settings_common_libraryfirstletter_int">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </integer-array>
+    <string-array name="settings_common_libraryfirstletter_str">
+        <item>始终</item>
+        <item>默认</item>
+        <item>只在大列表中</item>
+        <item>最好不要使用</item>
+    </string-array>
+    <integer-array name="settings_common_librarypath_int">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </integer-array>
+    <string-array name="settings_common_librarypath_str">
+        <item>@string/setting_library_allfolders</item>
+        <item>/Books</item>
+        <item>/Books + /Download</item>
+        <item>/Books + /Download + /Bluetooth</item>
+        <item>@string/setting_library_custompath</item>
+    </string-array>
+    <integer-array name="settings_common_onyxeink_refreshrateint">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+        <item>7</item>
+        <item>10</item>
+        <item>20</item>
+        <item>50</item>
+        <item>75</item>
+        <item>100</item>
+        <item>1000</item>
+    </integer-array>
+    <string-array name="settings_common_onyxeink_refreshratestr">
+        <item>始终</item>
+        <item>1 页后</item>
+        <item>2 页后</item>
+        <item>3 页后</item>
+        <item>5 页后</item>
+        <item>7 页后</item>
+        <item>10 页后</item>
+        <item>20 页后</item>
+        <item>50 页后</item>
+        <item>75 页后</item>
+        <item>100 页后</item>
+        <item>从不</item>
+    </string-array>
+    <integer-array name="settings_common_rotateint">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </integer-array>
+    <integer-array name="settings_common_rotateonyxint">
+        <item>0</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </integer-array>
+    <string-array name="settings_common_rotateonyxstr">
+        <item>默认</item>
+        <item>纵向</item>
+        <item>横向</item>
+        <item>反向纵向</item>
+        <item>反向横向</item>
+    </string-array>
+    <string-array name="settings_common_rotatestr">
+        <item>默认</item>
+        <item>传感器</item>
+        <item>纵向+传感器</item>
+        <item>横向+传感器</item>
+        <item>纵向</item>
+        <item>横向</item>
+        <item>纵向（反）</item>
+        <item>横向（反）</item>
+    </string-array>
+    <integer-array name="settings_common_syncmanualmode_int21">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </integer-array>
+    <string-array name="settings_common_syncmanualmode_str21">
+        <item>@string/setting_common_sync_network</item>
+        <item>@string/setting_common_sync_files</item>
+        <item>@string/setting_common_sync_webdav</item>
+        <item>@string/setting_common_sync_ftp</item>
+        <item>@string/setting_common_sync_sftp</item>
+    </string-array>
+    <integer-array name="settings_common_syncmode_int21">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </integer-array>
+    <string-array name="settings_common_syncmode_str21">
+        <item>@string/setting_common_sync_none</item>
+        <item>@string/setting_common_sync_network</item>
+        <item>@string/setting_common_sync_files</item>
+        <item>@string/setting_common_sync_webdav</item>
+        <item>@string/setting_common_sync_ftp</item>
+        <item>@string/setting_common_sync_sftp</item>
+    </string-array>
+    <integer-array name="settings_common_syncstorage_int21">
+        <item>0</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </integer-array>
+    <string-array name="settings_common_syncstorage_str21">
+        <item>@string/setting_common_sync_none</item>
+        <item>@string/setting_common_sync_files</item>
+        <item>@string/setting_common_sync_webdav</item>
+        <item>@string/setting_common_sync_ftp</item>
+        <item>@string/setting_common_sync_sftp</item>
+    </string-array>
+    <integer-array name="settings_common_ttsalarm_int">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </integer-array>
+    <string-array name="settings_common_ttsalarm_str">
+        <item>否</item>
+        <item>旋律声</item>
+        <item>语音警告</item>
+        <item>静音</item>
+    </string-array>
+    <integer-array name="settings_common_ttspause_int">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </integer-array>
+    <string-array name="settings_common_ttspause_str">
+        <item>无</item>
+        <item>短</item>
+        <item>中</item>
+        <item>长</item>
+    </string-array>
+    <integer-array name="settings_common_ttsreadnotes_int">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+    <string-array name="settings_common_ttsreadnotes_str">
+        <item>不</item>
+        <item>选定处</item>
+        <item>句末</item>
+    </string-array>
+    <integer-array name="settings_common_ttsselectedtext_int">
+        <item>0</item>
+        <item>2</item>
+        <item>1</item>
+    </integer-array>
+    <string-array name="settings_common_ttsselectedtext_str">
+        <item>读一遍</item>
+        <item>重复所选</item>
+        <item>读到书的结尾</item>
+    </string-array>
+    <integer-array name="settings_common_ttstimer_int">
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+        <item>60</item>
+        <item>90</item>
+    </integer-array>
+    <string-array name="settings_common_ttstimer_str">
+        <item>无</item>
+        <item>5 分钟</item>
+        <item>10 分钟</item>
+        <item>15 分钟</item>
+        <item>20 分钟</item>
+        <item>25 分钟</item>
+        <item>30 分钟</item>
+        <item>40 分钟</item>
+        <item>50 分钟</item>
+        <item>60 分钟</item>
+        <item>90 分钟</item>
+    </string-array>
+    <integer-array name="settings_controls_doubletapsint">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </integer-array>
+    <integer-array name="settings_controls_longtapint">
+        <item>2</item>
+        <item>1</item>
+        <item>3</item>
+        <item>0</item>
+    </integer-array>
+    <integer-array name="settings_controls_verticalswipeint">
+        <item>0</item>
+        <item>2</item>
+        <item>1</item>
+        <item>-1</item>
+    </integer-array>
+    <integer-array name="settings_controls_verticalswipeint_eink">
+        <item>0</item>
+        <item>1</item>
+        <item>-1</item>
+    </integer-array>
+    <integer-array name="settings_interface_statusinfo_int">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </integer-array>
+    <string-array name="settings_interface_statusinfo_str">
+        <item>文件名</item>
+        <item>标题</item>
+        <item>作者</item>
+        <item>标题 + 作者</item>
+        <item>章节名称</item>
+        <item>章节页</item>
+        <item>阅读时间</item>
+    </string-array>
+    <integer-array name="settings_interface_theme21_int">
+        <item>3</item>
+        <item>4</item>
+        <item>1</item>
+        <item>0</item>
+    </integer-array>
+    <string-array name="settings_interface_theme21_str">
+        <item>白天模式</item>
+        <item>夜晚模式</item>
+        <item>墨水屏</item>
+        <item>自定义</item>
+    </string-array>
+    <integer-array name="settings_interface_theme28_int">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>1</item>
+        <item>0</item>
+    </integer-array>
+    <string-array name="settings_interface_theme28_str">
+        <item>系统默认值</item>
+        <item>白天模式</item>
+        <item>夜晚模式</item>
+        <item>墨水屏</item>
+        <item>自定义</item>
+    </string-array>
+    <integer-array name="settings_interface_themebutton_int">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </integer-array>
+    <string-array name="settings_interface_themebutton_str">
+        <item>选项 1</item>
+        <item>选项 2</item>
+        <item>选项 3</item>
+        <item>选项 4</item>
+    </string-array>
+    <string-array name="settings_library_fileage">
+        <item>@string/dialog_library_filedate_1week</item>
+        <item>@string/dialog_library_filedate_2week</item>
+        <item>@string/dialog_library_filedate_month</item>
+        <item>@string/dialog_library_filedate_3month</item>
+        <item>@string/dialog_library_filedate_6month</item>
+        <item>@string/dialog_library_filedate_year</item>
+    </string-array>
+    <integer-array name="settings_manage_backint">
+        <item>6</item>
+        <item>0</item>
+        <item>1</item>
+        <item>3</item>
+        <item>4</item>
+    </integer-array>
+    <integer-array name="settings_manage_backint_onyx">
+        <item>6</item>
+        <item>0</item>
+        <item>1</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>7</item>
+    </integer-array>
+    <string-array name="settings_manage_backstr">
+        <item>系统</item>
+        <item>菜单</item>
+        <item>隐藏</item>
+        <item>后退 + 隐藏</item>
+        <item>后退 + 菜单</item>
+    </string-array>
+    <string-array name="settings_manage_backstr_onyx">
+        <item>系统</item>
+        <item>菜单</item>
+        <item>隐藏</item>
+        <item>后退 + 隐藏</item>
+        <item>后退 + 菜单</item>
+        <item>下一页</item>
+        <item>无</item>
+    </string-array>
+    <string-array name="settings_manage_doubletapsstr">
+        <item>无</item>
+        <item>字典</item>
+        <item>复制文本</item>
+        <item>快捷面板</item>
+        <item>选择文本</item>
+    </string-array>
+    <string-array name="settings_manage_longtapstr">
+        <item>选择文本</item>
+        <item>字典</item>
+        <item>选择 + 字典</item>
+        <item>动作</item>
+    </string-array>
+    <string-array name="settings_manage_tts_swipes">
+        <item>无动作</item>
+        <item>上一页/下一页</item>
+        <item>下一页/上一页</item>
+        <item>语调</item>
+        <item>音量</item>
+        <item>速度</item>
+    </string-array>
+    <string-array name="settings_manage_verticalswipestr">
+        <item>平滑页滚动</item>
+        <item>平滑行滚动</item>
+        <item>离散行滚动</item>
+        <item>不使用</item>
+    </string-array>
+    <string-array name="settings_manage_verticalswipestr_eink">
+        <item>平滑页滚动</item>
+        <item>离散行滚动</item>
+        <item>不使用</item>
+    </string-array>
+    <integer-array name="settings_naturalbacklightint_onyx">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </integer-array>
+    <string-array name="settings_naturalbacklightleftstr_onyx">
+        <item>否</item>
+        <item>冷色</item>
+        <item>暖色</item>
+        <item>全部</item>
+        <item>色温 冷/暖</item>
+        <item>色温 暖/冷</item>
+    </string-array>
+    <string-array name="settings_naturalbacklightrightstr_onyx">
+        <item>否</item>
+        <item>暖色</item>
+        <item>冷色</item>
+        <item>全部</item>
+        <item>色温 冷/暖</item>
+        <item>色温 暖/冷</item>
+    </string-array>
+    <integer-array name="settings_opendialogs_taps_int">
+        <item>0</item>
+        <item>1</item>
+    </integer-array>
+    <string-array name="settings_opendialogs_taps_str">
+        <item>打开</item>
+        <item>显示属性</item>
+    </string-array>
+    <integer-array name="settings_pages_columncountint">
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+    <string-array name="settings_pages_columncountstr">
+        <item>自动</item>
+        <item>单列</item>
+        <item>双列</item>
+        <item>横屏双页</item>
+    </string-array>
+    <integer-array name="settings_pages_imagescaleint">
+        <item>0</item>
+        <item>1</item>
+        <item>7</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </integer-array>
+    <string-array name="settings_pages_imagescalestr">
+        <item>自动</item>
+        <item>原始 (100%)</item>
+        <item>150%</item>
+        <item>200%</item>
+        <item>300%</item>
+        <item>400%</item>
+    </string-array>
+    <integer-array name="settings_pages_notesonpageint">
+        <item>0</item>
+        <item>-1</item>
+        <item>-2</item>
+        <item>-3</item>
+        <item>-5</item>
+        <item>-999</item>
+        <item>2</item>
+    </integer-array>
+    <string-array name="settings_pages_notesonpagestr">
+        <item>否</item>
+        <item>页面上的 1 项</item>
+        <item>页面上的 2 项</item>
+        <item>页面上的 3 项</item>
+        <item>页面上的 5 项</item>
+        <item>页面上最多的项目</item>
+        <item>弹出</item>
+    </string-array>
+    <integer-array name="settings_pages_pagesizeint">
+        <item>-1</item>
+        <item>512</item>
+        <item>768</item>
+        <item>1024</item>
+        <item>1280</item>
+        <item>1536</item>
+        <item>1670</item>
+        <item>1860</item>
+        <item>2048</item>
+        <item>2340</item>
+        <item>3072</item>
+        <item>3420</item>
+        <item>4096</item>
+    </integer-array>
+    <string-array name="settings_pages_pagesizestr">
+        <item>自动</item>
+        <item>512</item>
+        <item>768</item>
+        <item>1024</item>
+        <item>1280</item>
+        <item>1536</item>
+        <item>1670</item>
+        <item>1860</item>
+        <item>2048</item>
+        <item>2340</item>
+        <item>3072</item>
+        <item>3420</item>
+        <item>4096</item>
+    </string-array>
+    <integer-array name="settings_pages_progresswidthint">
+        <item>0</item>
+        <item>1</item>
+    </integer-array>
+    <string-array name="settings_pages_progresswidthstr">
+        <item>默认</item>
+        <item>厚度</item>
+    </string-array>
+    <integer-array name="settings_pages_skincaleint">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </integer-array>
+    <string-array name="settings_pages_skincalestr">
+        <item>自动</item>
+        <item>原始 (100%)</item>
+        <item>200%</item>
+        <item>300%</item>
+        <item>400%</item>
+    </string-array>
+    <integer-array name="settings_pages_useheaderint">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </integer-array>
+    <string-array name="settings_pages_useheaderstr">
+        <item>从不</item>
+        <item>仅窗口</item>
+        <item>仅全屏</item>
+        <item>始终</item>
+    </string-array>
+    <integer-array name="settings_profile_numberint">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </integer-array>
+    <string-array name="settings_profile_numberstr">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    <integer-array name="settings_temperaturebacklightint_onyx">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+    <string-array name="settings_temperaturebacklightleftstr_onyx">
+        <item>否</item>
+        <item>亮度</item>
+        <item>色温</item>
+    </string-array>
+    <string-array name="settings_temperaturebacklightrightstr_onyx">
+        <item>否</item>
+        <item>色温</item>
+        <item>亮度</item>
+    </string-array>
+    <string-array name="ttsvoices_unavailablestr">
+        <item>语音不可用</item>
+    </string-array>
+</resources>

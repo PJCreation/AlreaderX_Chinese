@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="bookmark_typesstr">
+        <item>Lesezeichen</item>
+        <item>Zitat</item>
+        <item>Lesezeichen + Zitat</item>
+    </string-array>
+    <string-array name="marker_typesstr">
+        <item>Nicht markieren</item>
+        <item>Roter Hintergrund</item>
+        <item>Gelber Hintergrund</item>
+        <item>Grüner Hintergrund</item>
+        <item>Unterstreichen</item>
+        <item>Rote Unterstreichung</item>
+        <item>Gelbe Unterstreichung</item>
+        <item>Grüne Unterstreichung</item>
+    </string-array>
+    <string-array name="marker_underlinestr">
+        <item>Gerade Linie</item>
+        <item>Handschriftlich</item>
+        <item>Wellenform</item>
+    </string-array>
+    <string-array name="setting_fonts_spacewidthstr">
+        <item>50%</item>
+        <item>60%</item>
+        <item>70%</item>
+        <item>80%</item>
+        <item>90%</item>
+        <item>100% (Default)</item>
+        <item>110%</item>
+        <item>120%</item>
+    </string-array>
+    <string-array name="setting_pages_firstletterstr">
+        <item>Nie</item>
+        <item>Jeder Absatz</item>
+        <item>Erster Ansatz</item>
+        <item>Jeder Absatz, klassisch</item>
+        <item>Erster Absatz, klassisch</item>
+    </string-array>
+    <string-array name="settings_backup_type_arr">
+        <item>Einstellungen</item>
+        <item>Einstellungen + DB gelesener Bücher</item>
+        <item>Einstellungen + Ressourcen</item>
+        <item>Alles</item>
+    </string-array>
+    <string-array name="settings_books_dialogstr">
+        <item>Keine</item>
+        <item>Leerzeichen am Anfang entfernen</item>
+        <item>Leerzeichen entfernen, Bindestriche ersetzen</item>
+    </string-array>
+    <string-array name="settings_color_usestatusback_str">
+        <item>Nie</item>
+        <item>Wenn ein Skin benutzt wird</item>
+        <item>Immer</item>
+    </string-array>
+    <string-array name="settings_common_animation_alwaysstr">
+        <item>Nie</item>
+        <item>Nur beim Wischen</item>
+        <item>Immer</item>
+    </string-array>
+    <string-array name="settings_common_animation_typestr">
+        <item>3D OpenGL Typ 1</item>
+        <item>3D OpenGL Typ 2</item>
+        <item>Links schieben</item>
+        <item>Rechts schieben</item>
+        <item>Welle</item>
+        <item>Zwei Seiten schieben</item>
+    </string-array>
+    <string-array name="settings_common_autoscroll_typeeinkstr">
+        <item>Welle</item>
+        <item>Umblättern</item>
+    </string-array>
+    <string-array name="settings_common_autoscroll_typestr">
+        <item>Welle</item>
+        <item>Rollen</item>
+        <item>Seiten-Flip-Animation</item>
+        <item>Seiten-Flip</item>
+    </string-array>
+    <string-array name="settings_common_backlighthardwaremin_str">
+        <item>1%</item>
+        <item>2% (Default)</item>
+        <item>3%</item>
+        <item>4%</item>
+        <item>5%</item>
+    </string-array>
+    <string-array name="settings_common_backlightkeep_str">
+        <item>Wie im System</item>
+        <item>2 Minuten</item>
+        <item>3 Minuten</item>
+        <item>5 Minuten</item>
+        <item>10 Minuten</item>
+        <item>30 Minuten</item>
+        <item>Permanent</item>
+    </string-array>
+    <string-array name="settings_common_eink_refreshratestr">
+        <item>Nach 5 Blättern</item>
+        <item>Nach 10 Blättern</item>
+        <item>Nach 20 Blättern</item>
+        <item>Nach 50 Blättern</item>
+        <item>Nicht aktualisieren</item>
+    </string-array>
+    <string-array name="settings_common_fontscalestr">
+        <item>Wie in System</item>
+        <item>Kleinste</item>
+        <item>Klein</item>
+        <item>Normal</item>
+        <item>Groß</item>
+        <item>Größer</item>
+        <item>Größte</item>
+    </string-array>
+    <string-array name="settings_common_gammamodestr">
+        <item>Nie</item>
+        <item>Vollständig</item>
+        <item>Nur Bilder</item>
+    </string-array>
+    <string-array name="settings_common_gammavaluestr">
+        <item>0.5</item>
+        <item>0.6</item>
+        <item>0.7</item>
+        <item>0.8</item>
+        <item>0.9</item>
+        <item>1.0 (Default)</item>
+        <item>1.1</item>
+        <item>1.2</item>
+        <item>1.3</item>
+        <item>1.4</item>
+        <item>1.5</item>
+        <item>1.6</item>
+        <item>1.7</item>
+        <item>1.8</item>
+        <item>1.9</item>
+        <item>2.0</item>
+        <item>2.1</item>
+        <item>2.2</item>
+        <item>2.3</item>
+    </string-array>
+    <string-array name="settings_common_libraryfirstletter_str">
+        <item>Immer</item>
+        <item>Standard</item>
+        <item>Nur auf großen Listen</item>
+        <item>Nach Möglichkeit nicht verwenden</item>
+    </string-array>
+    <string-array name="settings_common_onyxeink_refreshratestr">
+        <item>Immer</item>
+        <item>Nach 1 Blättern</item>
+        <item>Nach 2 Blättern</item>
+        <item>Nach 3 Blättern</item>
+        <item>Nach 5 Blättern</item>
+        <item>Nach 7 Blättern</item>
+        <item>Nach 10 Blättern</item>
+        <item>Nach 20 Blättern</item>
+        <item>Nach 50 Blättern</item>
+        <item>Nach 75 Blättern</item>
+        <item>Nach 100 Blättern</item>
+        <item>Nicht aktualisieren</item>
+    </string-array>
+    <string-array name="settings_common_rotateonyxstr">
+        <item>Wie im System</item>
+        <item>Hochformat</item>
+        <item>Querformat</item>
+        <item>Hochformat 180°</item>
+        <item>Querformat 180°</item>
+    </string-array>
+    <string-array name="settings_common_rotatestr">
+        <item>Wie im System</item>
+        <item>Sensor</item>
+        <item>Hochformat + Sensor</item>
+        <item>Querformat + Sensor</item>
+        <item>Hochformat</item>
+        <item>Querformat</item>
+        <item>Umgekehrtes Hochformat</item>
+        <item>Umgekehrtes Querformat</item>
+    </string-array>
+    <string-array name="settings_common_ttsalarm_str">
+        <item>Keine</item>
+        <item>Melodisches Quietschen</item>
+        <item>Sprachwarnung</item>
+        <item>Stumm</item>
+    </string-array>
+    <string-array name="settings_common_ttspause_str">
+        <item>Keine</item>
+        <item>Kurz</item>
+        <item>Mittel</item>
+        <item>Lang</item>
+    </string-array>
+    <string-array name="settings_common_ttsreadnotes_str">
+        <item>Keine</item>
+        <item>An dem Ort</item>
+        <item>Am Ende des Satzes</item>
+    </string-array>
+    <string-array name="settings_common_ttsselectedtext_str">
+        <item>Auswahl vorlesen</item>
+        <item>Auswahl wiederholen</item>
+        <item>Von Auswahl bis zum Buchende vorlesen</item>
+    </string-array>
+    <string-array name="settings_common_ttstimer_str">
+        <item>Keine</item>
+        <item>5 min</item>
+        <item>10 min</item>
+        <item>15 min</item>
+        <item>20 min</item>
+        <item>25 min</item>
+        <item>30 min</item>
+        <item>40 min</item>
+        <item>50 min</item>
+        <item>60 min</item>
+        <item>90 min</item>
+    </string-array>
+    <string-array name="settings_interface_statusinfo_str">
+        <item>Dateiname</item>
+        <item>Titel</item>
+        <item>Autor</item>
+        <item>Titel + Autor</item>
+        <item>Chapter Name</item>
+        <item>Chapter Page</item>
+        <item>Lesezeit</item>
+    </string-array>
+    <string-array name="settings_interface_theme21_str">
+        <item>System Tag</item>
+        <item>System Nacht</item>
+        <item>E-Ink</item>
+        <item>Benutzerdefiniert</item>
+    </string-array>
+    <string-array name="settings_interface_theme28_str">
+        <item>Wie in System</item>
+        <item>System Tag</item>
+        <item>System Nacht</item>
+        <item>E-Ink</item>
+        <item>Benutzerdefiniert</item>
+    </string-array>
+    <string-array name="settings_interface_theme_str">
+        <item>System</item>
+        <item>E-Ink</item>
+        <item>Benutzerdefiniert</item>
+    </string-array>
+    <string-array name="settings_interface_themebutton_str">
+        <item>Variante 1</item>
+        <item>Variante 2</item>
+        <item>Variante 3</item>
+        <item>Variante 4</item>
+    </string-array>
+    <string-array name="settings_manage_backstr">
+        <item>System</item>
+        <item>Menü</item>
+        <item>Ausblenden</item>
+        <item>Zurück + Ausblenden</item>
+        <item>Zurück + Menü</item>
+    </string-array>
+    <string-array name="settings_manage_backstr_onyx">
+        <item>System</item>
+        <item>Menü</item>
+        <item>Ausblenden</item>
+        <item>Zurück + Ausblenden</item>
+        <item>Zurück + Menü</item>
+        <item>Nächste Seite</item>
+        <item>Keine</item>
+    </string-array>
+    <string-array name="settings_manage_doubletapsstr">
+        <item>Aus</item>
+        <item>Wörterbuch</item>
+        <item>Text kopieren</item>
+        <item>Schnellmenü</item>
+        <item>Text markieren</item>
+    </string-array>
+    <string-array name="settings_manage_longtapstr">
+        <item>Text markieren</item>
+        <item>Wörterbuch</item>
+        <item>Auswahl und Wörterbuch</item>
+        <item>Aktionen</item>
+    </string-array>
+    <string-array name="settings_manage_tts_swipes">
+        <item>Keine Aktion</item>
+        <item>Vorherige/Nächste</item>
+        <item>Nächste/Vorherige</item>
+        <item>Ton</item>
+        <item>Lautstärke</item>
+        <item>Geschwindigkeit</item>
+    </string-array>
+    <string-array name="settings_manage_verticalswipestr">
+        <item>Seite, fließend</item>
+        <item>Zeilenweise, fließend</item>
+        <item>Zeilenweise</item>
+        <item>Aus</item>
+    </string-array>
+    <string-array name="settings_manage_verticalswipestr_eink">
+        <item>Seite, fließend</item>
+        <item>Zeilenweise</item>
+        <item>Aus</item>
+    </string-array>
+    <string-array name="settings_naturalbacklightleftstr_onyx">
+        <item>Keine</item>
+        <item>Kaltes Licht</item>
+        <item>Warmes Licht</item>
+        <item>Beide Niveaus</item>
+        <item>Farbtemperatur Kalt/Warm</item>
+        <item>Farbtemperatur Warm/Kalt</item>
+    </string-array>
+    <string-array name="settings_naturalbacklightrightstr_onyx">
+        <item>Keine</item>
+        <item>Warmes Licht</item>
+        <item>Kaltes Licht</item>
+        <item>Beide Niveaus</item>
+        <item>Farbtemperatur Kalt/Warm</item>
+        <item>Farbtemperatur Warm/Kalt</item>
+    </string-array>
+    <string-array name="settings_opendialogs_taps_str">
+        <item>Öffnen</item>
+        <item>Bucheigenschaften</item>
+    </string-array>
+    <string-array name="settings_pages_columncountstr">
+        <item>Auto</item>
+        <item>Eine</item>
+        <item>Zwei</item>
+        <item>Zwei in Querformat</item>
+    </string-array>
+    <string-array name="settings_pages_imagescalestr">
+        <item>Auto</item>
+        <item>Original (100%)</item>
+        <item>150%</item>
+        <item>200%</item>
+        <item>300%</item>
+        <item>400%</item>
+    </string-array>
+    <string-array name="settings_pages_notesonpagestr">
+        <item>Keine</item>
+        <item>1 Zeile pro Seite</item>
+        <item>2 Zeilen pro Seite</item>
+        <item>3 Zeilen pro Seite</item>
+        <item>5 Zeilen pro Seite</item>
+        <item>So viele wie möglich</item>
+        <item>Popup</item>
+    </string-array>
+    <string-array name="settings_pages_pagesizestr">
+        <item>Auto</item>
+        <item>512</item>
+        <item>768</item>
+        <item>1024</item>
+        <item>1280</item>
+        <item>1536</item>
+        <item>1670</item>
+        <item>1860</item>
+        <item>2048</item>
+        <item>2340</item>
+        <item>3072</item>
+        <item>3420</item>
+        <item>4096</item>
+    </string-array>
+    <string-array name="settings_pages_progresswidthstr">
+        <item>Standard</item>
+        <item>Dicker</item>
+    </string-array>
+    <string-array name="settings_pages_skincalestr">
+        <item>Auto</item>
+        <item>Original (100%)</item>
+        <item>200%</item>
+        <item>300%</item>
+        <item>400%</item>
+    </string-array>
+    <string-array name="settings_pages_useheaderstr">
+        <item>Nie</item>
+        <item>Nur in Fenster</item>
+        <item>Nur im Vollbildmodus</item>
+        <item>Immer</item>
+    </string-array>
+    <string-array name="ttsvoices_unavailablestr">
+        <item>Stimmenwechsel ist nicht verfügbar</item>
+    </string-array>
+</resources>

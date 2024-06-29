@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="bookmark_typesstr">
+        <item>Закладка</item>
+        <item>Цитата</item>
+        <item>Закладка + Цитата</item>
+    </string-array>
+    <string-array name="marker_typesstr">
+        <item>Не маркувати</item>
+        <item>Червоний фон</item>
+        <item>Жовтий фон</item>
+        <item>Зелений фон</item>
+        <item>Підкреслення</item>
+        <item>Підкреслення червоним</item>
+        <item>Підкреслення жовтим</item>
+        <item>Підкреслення зеленим</item>
+    </string-array>
+    <string-array name="marker_underlinestr">
+        <item>Пряма</item>
+        <item>Рукописна</item>
+        <item>Хвиляста</item>
+    </string-array>
+    <string-array name="setting_fonts_spacewidthstr">
+        <item>50%</item>
+        <item>60%</item>
+        <item>70%</item>
+        <item>80%</item>
+        <item>90%</item>
+        <item>100% (Типово)</item>
+        <item>110%</item>
+        <item>120%</item>
+    </string-array>
+    <string-array name="setting_pages_firstletterstr">
+        <item>Ніколи</item>
+        <item>Кожен абзац</item>
+        <item>Перший абзац</item>
+        <item>Класика кожен абзац</item>
+        <item>Класика перший абзац</item>
+    </string-array>
+    <string-array name="settings_backup_type_arr">
+        <item>Налаштування</item>
+        <item>Налаштування + База прочитаного</item>
+        <item>Налаштування + Ресурси</item>
+        <item>Все</item>
+    </string-array>
+    <string-array name="settings_books_dialogstr">
+        <item>Ні</item>
+        <item>Видалити пробіли на початку</item>
+        <item>Видалити пробіли, замінити тире</item>
+    </string-array>
+    <string-array name="settings_color_usestatusback_str">
+        <item>Ніколи</item>
+        <item>Якщо є скін</item>
+        <item>Завжди</item>
+    </string-array>
+    <string-array name="settings_common_animation_alwaysstr">
+        <item>Ніколи</item>
+        <item>Тільки жестами</item>
+        <item>Завжди</item>
+    </string-array>
+    <string-array name="settings_common_animation_typestr">
+        <item>3D OpenGL тип 1</item>
+        <item>3D OpenGL тип 2</item>
+        <item>Лівий зсув</item>
+        <item>Правий зсув</item>
+        <item>Хвиля</item>
+        <item>Зсув двох сторінок</item>
+    </string-array>
+    <string-array name="settings_common_autoscroll_typeeinkstr">
+        <item>Хвиля</item>
+        <item>Перегортання</item>
+    </string-array>
+    <string-array name="settings_common_autoscroll_typestr">
+        <item>Хвиля</item>
+        <item>Сувій</item>
+        <item>Перегортання з анімацією</item>
+        <item>Перегортання</item>
+    </string-array>
+    <string-array name="settings_common_backlighthardwaremin_str">
+        <item>1%</item>
+        <item>2% (Типово)</item>
+        <item>3%</item>
+        <item>4%</item>
+        <item>5%</item>
+    </string-array>
+    <string-array name="settings_common_backlightkeep_str">
+        <item>Системні налаштування</item>
+        <item>2 хв</item>
+        <item>3 хв</item>
+        <item>5 хв</item>
+        <item>10 хв</item>
+        <item>30 хв</item>
+        <item>Постійно</item>
+    </string-array>
+    <string-array name="settings_common_eink_refreshratestr">
+        <item>Після 5 гортань</item>
+        <item>Після 10 гортань</item>
+        <item>Після 20 гортань</item>
+        <item>Після 50 гортань</item>
+        <item>Не оновлювати</item>
+    </string-array>
+    <string-array name="settings_common_fontscalestr">
+        <item>Системні налаштування</item>
+        <item>Найменший</item>
+        <item>Малий</item>
+        <item>Нормальний</item>
+        <item>Великий</item>
+        <item>Більший</item>
+        <item>Найбільший</item>
+    </string-array>
+    <string-array name="settings_common_gammamodestr">
+        <item>Ні</item>
+        <item>Для всієї сторінки</item>
+        <item>Тільки для зображень</item>
+    </string-array>
+    <string-array name="settings_common_gammavaluestr">
+        <item>0.5</item>
+        <item>0.6</item>
+        <item>0.7</item>
+        <item>0.8</item>
+        <item>0.9</item>
+        <item>1.0 (Типово)</item>
+        <item>1.1</item>
+        <item>1.2</item>
+        <item>1.3</item>
+        <item>1.4</item>
+        <item>1.5</item>
+        <item>1.6</item>
+        <item>1.7</item>
+        <item>1.8</item>
+        <item>1.9</item>
+        <item>2.0</item>
+        <item>2.1</item>
+        <item>2.2</item>
+        <item>2.3</item>
+    </string-array>
+    <string-array name="settings_common_libraryfirstletter_str">
+        <item>Завжди</item>
+        <item>Типово</item>
+        <item>Тільки у великих списках</item>
+        <item>Бажано не використовувати</item>
+    </string-array>
+    <string-array name="settings_common_onyxeink_refreshratestr">
+        <item>Завжди</item>
+        <item>Після 1 гортання</item>
+        <item>Після 2 гортань</item>
+        <item>Після 3 гортань</item>
+        <item>Після 5 гортань</item>
+        <item>Після 7 гортань</item>
+        <item>Після 10 гортань</item>
+        <item>Після 20 гортань</item>
+        <item>Після 50 гортань</item>
+        <item>Після 75 гортань</item>
+        <item>Після 100 гортань</item>
+        <item>Не оновлювати</item>
+    </string-array>
+    <string-array name="settings_common_rotateonyxstr">
+        <item>Системні налаштування</item>
+        <item>Портретна</item>
+        <item>Альбомна</item>
+        <item>Зворотна Портретна</item>
+        <item>Зворотна Альбомна</item>
+    </string-array>
+    <string-array name="settings_common_rotatestr">
+        <item>Системні налаштування</item>
+        <item>Сенсор</item>
+        <item>Портретна + Сенсор</item>
+        <item>Альбомна + Сенсор</item>
+        <item>Портретна</item>
+        <item>Альбомна</item>
+        <item>Зворотна Портретна</item>
+        <item>Зворотна Альбомна</item>
+    </string-array>
+    <string-array name="settings_common_ttsalarm_str">
+        <item>Ні</item>
+        <item>Мелодійний писк</item>
+        <item>Голосовое попередження</item>
+        <item>Без звуку</item>
+    </string-array>
+    <string-array name="settings_common_ttspause_str">
+        <item>Відсутня</item>
+        <item>Коротка</item>
+        <item>Средня</item>
+        <item>Довга</item>
+    </string-array>
+    <string-array name="settings_common_ttsreadnotes_str">
+        <item>Ні</item>
+        <item>В тексті</item>
+        <item>В кінці речення</item>
+    </string-array>
+    <string-array name="settings_common_ttsselectedtext_str">
+        <item>Читати виділене один раз</item>
+        <item>Читати виділене з повторенням</item>
+        <item>Читати до кінця книги</item>
+    </string-array>
+    <string-array name="settings_common_ttstimer_str">
+        <item>Нема</item>
+        <item>5 хв</item>
+        <item>10 хв</item>
+        <item>15 хв</item>
+        <item>20 хв</item>
+        <item>25 хв</item>
+        <item>30 хв</item>
+        <item>40 хв</item>
+        <item>50 хв</item>
+        <item>60 хв</item>
+        <item>90 хв</item>
+    </string-array>
+    <string-array name="settings_interface_statusinfo_str">
+        <item>"Им'я файлу"</item>
+        <item>Назва</item>
+        <item>Автор</item>
+        <item>Назва + Автор</item>
+        <item>Назва глави</item>
+        <item>Сторінки глави</item>
+        <item>Час читання</item>
+    </string-array>
+    <string-array name="settings_interface_theme21_str">
+        <item>Системна світла</item>
+        <item>Системна темна</item>
+        <item>E Ink</item>
+        <item>Користувацька</item>
+    </string-array>
+    <string-array name="settings_interface_theme28_str">
+        <item>Системні налаштування</item>
+        <item>Системна світла</item>
+        <item>Системна темна</item>
+        <item>E Ink</item>
+        <item>Користувацька</item>
+    </string-array>
+    <string-array name="settings_interface_theme_str">
+        <item>Системна</item>
+        <item>E Ink</item>
+        <item>Користувацька</item>
+    </string-array>
+    <string-array name="settings_interface_themebutton_str">
+        <item>Варіант 1</item>
+        <item>Варіант 2</item>
+        <item>Варіант 3</item>
+        <item>Варіант 4</item>
+    </string-array>
+    <string-array name="settings_manage_backstr">
+        <item>Системна дія</item>
+        <item>Меню</item>
+        <item>Приховати</item>
+        <item>Назад + Приховати</item>
+        <item>Назад + Меню</item>
+    </string-array>
+    <string-array name="settings_manage_backstr_onyx">
+        <item>Системна дія</item>
+        <item>Меню</item>
+        <item>Приховати</item>
+        <item>Назад + Приховати</item>
+        <item>Назад + Меню</item>
+        <item>Наступна сторінка</item>
+        <item>Без дії</item>
+    </string-array>
+    <string-array name="settings_manage_doubletapsstr">
+        <item>Ні</item>
+        <item>Словник</item>
+        <item>Копіювання тексту</item>
+        <item>Швидке меню</item>
+        <item>Виділення тексту</item>
+    </string-array>
+    <string-array name="settings_manage_longtapstr">
+        <item>Виділення тексту</item>
+        <item>Словник</item>
+        <item>Виділення + Словник</item>
+        <item>Дії</item>
+    </string-array>
+    <string-array name="settings_manage_tts_swipes">
+        <item>Без дії</item>
+        <item>Попереднє/Наступне речення</item>
+        <item>Наступне/Попереднє речення</item>
+        <item>Тон</item>
+        <item>Гучність</item>
+        <item>Швидкість</item>
+    </string-array>
+    <string-array name="settings_manage_verticalswipestr">
+        <item>Плавна прокрутка по сторінці</item>
+        <item>Плавна прокрутка по рядку</item>
+        <item>Прокрутка по рядку</item>
+        <item>Не використовувати</item>
+    </string-array>
+    <string-array name="settings_manage_verticalswipestr_eink">
+        <item>Плавна прокрутка по сторінці</item>
+        <item>Прокрутка по рядку</item>
+        <item>Не використовувати</item>
+    </string-array>
+    <string-array name="settings_naturalbacklightleftstr_onyx">
+        <item>Ні</item>
+        <item>Холодне світло</item>
+        <item>Тепле світло</item>
+        <item>Обидва рівні</item>
+        <item>Температура Холодне/Тепле</item>
+        <item>Температура Тепле/Холодне</item>
+    </string-array>
+    <string-array name="settings_naturalbacklightrightstr_onyx">
+        <item>Ні</item>
+        <item>Тепле світло</item>
+        <item>Холодне світло</item>
+        <item>Обидва рівні</item>
+        <item>Температура Холодне/Тепле</item>
+        <item>Температура Тепле/Холодне</item>
+    </string-array>
+    <string-array name="settings_opendialogs_taps_str">
+        <item>Відкрити</item>
+        <item>Властивості книги</item>
+    </string-array>
+    <string-array name="settings_pages_columncountstr">
+        <item>Авто</item>
+        <item>Одна</item>
+        <item>Дві</item>
+        <item>Дві в альбомній орієнтації</item>
+    </string-array>
+    <string-array name="settings_pages_imagescalestr">
+        <item>Авто</item>
+        <item>Оригінал (100%)</item>
+        <item>150%</item>
+        <item>200%</item>
+        <item>300%</item>
+        <item>400%</item>
+    </string-array>
+    <string-array name="settings_pages_notesonpagestr">
+        <item>Ні</item>
+        <item>1 рядок на сторінці</item>
+        <item>2 рядки на сторінці</item>
+        <item>3 рядки на сторінці</item>
+        <item>5 рядків на сторінці</item>
+        <item>Якомога більше</item>
+        <item>Спливаюча виноска</item>
+    </string-array>
+    <string-array name="settings_pages_pagesizestr">
+        <item>Авто</item>
+        <item>512</item>
+        <item>768</item>
+        <item>1024</item>
+        <item>1280</item>
+        <item>1536</item>
+        <item>1670</item>
+        <item>1860</item>
+        <item>2048</item>
+        <item>2340</item>
+        <item>3072</item>
+        <item>3420</item>
+        <item>4096</item>
+    </string-array>
+    <string-array name="settings_pages_progresswidthstr">
+        <item>Типово</item>
+        <item>Товше</item>
+    </string-array>
+    <string-array name="settings_pages_skincalestr">
+        <item>Авто</item>
+        <item>Оригінал (100%)</item>
+        <item>200%</item>
+        <item>300%</item>
+        <item>400%</item>
+    </string-array>
+    <string-array name="settings_pages_useheaderstr">
+        <item>Ніколи</item>
+        <item>Тільки у вікні</item>
+        <item>Тільки у повному екрані</item>
+        <item>Завжди</item>
+    </string-array>
+    <string-array name="ttsvoices_unavailablestr">
+        <item>Зміна голосів недоступна</item>
+    </string-array>
+</resources>
